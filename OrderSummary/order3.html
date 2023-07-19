@@ -1,0 +1,60 @@
+<html class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                },
+                fontFamily: {
+                    poppins: ['Poppins', 'sans-serif'],
+                    Montserrat: ['Montserrat', 'sans-serif']
+                },
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&display=swap" rel="stylesheet">
+    <title>
+        Order3
+    </title>
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-600">
+    <section class="flex items-center h-screen bg-white font-poppins dark:bg-gray-800 ">
+        <div class="justify-center flex-1 px-6 py-16 mx-auto lg:py-16 md:px-7">
+            <div
+                class="max-w-xl p-8 mx-auto border rounded-md bg-gradient-to-r from-blue-50 to-gray-50 dark:from-gray-900 dark:to-gray-900 dark:border-gray-900 dark:bg-gray-900">
+                <p class="mb-8 text-lg font-medium text-gray-700 dark:text-gray-400">Order Number: #09182762611</p>
+                <h2 class="mb-4 text-4xl font-extrabold tracking-wide dark:text-gray-300">Thank you for your order !
+                </h2>
+                <p class="mb-6 text-lg font-medium text-gray-500 dark:text-gray-500">
+                    Please send us email for more product details.
+                </p>
+                <div class="flex flex-wrap mb-6">
+                    <input
+                        class="w-full px-4 py-4 mb-4 text-sm text-gray-900 border border-blue-100 rounded-md dark:border-gray-700 focus:outline-none focus:ring-2 dark:focus:ring-1 focus:ring-blue-600 dark:focus:ring-gray-600 focus:border-transparent bg-gray-50 lg:mr-3 dark:placeholder-gray-400 dark:text-gray-300 dark:bg-gray-800 md:mb-0 md:w-1/2"
+                        type="email" placeholder="Type your e-mail">
+                    <button
+                        class="inline-flex justify-center w-full px-4 py-4 text-sm font-semibold text-gray-100 bg-blue-600 rounded-md shadow md:w-1/3 md:ml-2 dark:bg-blue-500 focus:outline-none dark:hover:bg-blue-600 focus:ring-2 dark:focus:ring-0 focus:ring-offset-2 dark:focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-blue-400 focus:ring-blue-500 ">
+                        Subscribe
+                    </button>
+                </div>
+                <a href="#" class="text-blue-500 hover:underline dark:text-blue-400 hover:text-blue-700">
+                    Go back shopping
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

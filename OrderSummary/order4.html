@@ -1,0 +1,114 @@
+<html class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                },
+                fontFamily: {
+                    poppins: ['Poppins', 'sans-serif'],
+                    Montserrat: ['Montserrat', 'sans-serif']
+                },
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&display=swap" rel="stylesheet">
+    <title>
+        Order4
+    </title>
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-600">
+    <section
+        class="flex items-center py-16 bg-gray-100 dark:bg-gray-800 lg:h-screen md:py-20 font-poppins dark:bg-gray-720 ">
+        <div class="justify-center flex-1 max-w-6xl py-20 mx-auto bg-white dark:bg-gray-900 rounded-2xl">
+            <div
+                class="flex flex-wrap justify-center px-20 pb-12 mb-16 text-left border-b border-gray-200 dark:border-gray-700 lg:justify-between ">
+                <div class="px-4 mb-6 lg:mb-0">
+                    <h2 class="mb-1 text-lg font-semibold tracking-wide dark:text-gray-300">
+                        Your order has been Shipped
+                    </h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        by DHFL on 10th feb, 2022
+                    </p>
+                </div>
+                <div class="px-4">
+                    <button
+                        class="w-full px-4 py-2 text-blue-500 border border-blue-500 rounded-full md:w-auto hover:text-gray-100 hover:bg-blue-600 dark:border-gray-700 dark:hover:bg-gray-700 dark:text-gray-300">
+                        Tracking details
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center ">
+                <div class="relative w-full px-4 mb-16 md:w-1/2 lg:w-1/4 lg:mb-0">
+                    <div class="absolute hidden top-5 lg:block left-1/2 ">
+                        <span
+                            class="mb-3 border-b-2 border-r border-blue-600 w-72 md:block left-1/2 dark:border-blue-400 inset-px">
+                        </span>
+                    </div>
+                    <div class="relative text-center">
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 mb-8 text-lg text-gray-100 bg-blue-600 rounded-full shadow-md dark:bg-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="w-6 h-6 bi bi-check-lg" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                            </svg>
+                        </span>
+                        <h2 class="text-lg font-medium dark:text-gray-400 ">Customer</h2>
+                    </div>
+                </div>
+                <div class="relative w-full px-4 mb-16 md:w-1/2 lg:w-1/4 lg:mb-0">
+                    <div class="absolute hidden top-5 lg:block left-1/2 ">
+                        <span
+                            class="mb-3 border-b-2 border-r border-gray-300 w-72 md:block left-1/2 dark:border-gray-600 inset-px">
+                        </span>
+                    </div>
+                    <div class="relative text-center">
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 mb-8 text-lg text-gray-100 bg-blue-600 rounded-full shadow-md dark:bg-blue-400">
+                            2
+                        </span>
+                        <h2 class="text-lg font-medium dark:text-gray-400">Shipping</h2>
+                    </div>
+                </div>
+                <div class="relative w-full px-4 mb-16 md:w-1/2 lg:w-1/4 md:mb-0">
+                    <div class="absolute hidden top-5 lg:block left-1/2 ">
+                        <span
+                            class="mb-3 border-b-2 border-r border-gray-300 w-72 md:block left-1/2 dark:border-gray-600 inset-px">
+                        </span>
+                    </div>
+                    <div class="relative text-center">
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 mb-8 text-lg text-gray-700 bg-gray-200 rounded-full shadow-md dark:text-gray-400 dark:bg-gray-700">
+                            3
+                        </span>
+                        <h2 class="text-lg font-medium dark:text-gray-400">Payment</h2>
+                    </div>
+                </div>
+                <div class="relative w-full px-4 md:w-1/2 lg:w-1/4">
+                    <div class="relative text-center">
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 mb-8 text-gray-700 bg-gray-200 rounded-full shadow-md dark:text-gray-400 dark:bg-gray-700">
+                            4
+                        </span>
+                        <h2 class="text-lg font-medium dark:text-gray-400">Confirm</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
